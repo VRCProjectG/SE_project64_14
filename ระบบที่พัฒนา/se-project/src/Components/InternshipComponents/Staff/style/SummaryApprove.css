@@ -1,0 +1,75 @@
+.summaryApproveContainer {
+    display: flex;
+}
+
+.summaryApproveSection > .title {
+    margin-top: 2rem;
+    padding-left: 5rem;
+    padding-right: 5rem;
+}
+
+.summaryApproveSection > .table{
+    height: 87.6vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 1rem 5rem;
+}
+
+.summaryApproveSection > .table > table {
+    width: 100%;
+}
+
+.summaryApproveSection > .table > table > tr > th {
+    padding: 1rem 0;
+    background-color: #3c3c3c;
+    color:#fff;
+}
+
+.summaryApproveSection > .table > table > tr > td {
+    padding: 1rem 0;
+    text-align: center;
+}
+
+.summaryApproveSection .addDocumentButton {
+    padding: 0.5rem 0;
+    color: #fff;
+    background-color: #18ab72;
+    border: 1px solid #000;
+    border-radius: 0.3rem;
+}
+
+.summaryApproveSection .addDocumentButton:hover {
+    cursor: pointer;
+    background-color: #138559;
+}
+
+.summaryApproveSection > .search {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 5rem;
+}
+
+.summaryApproveSection .search {
+    width:70%;
+}
+
+.summaryApproveSection .search>input {
+    width:70%;
+    height: 2rem;
+    margin-right: 0.3rem;
+}
+
+.summaryApproveSection .search>button {
+    height: 2rem;
+    margin-right: 0.3rem;
+}
+
+.summaryApproveSection .search>button:hover {
+    cursor: pointer;
+    height: 2rem;
+    margin-right: 0.3rem;
+}

@@ -1,0 +1,76 @@
+.uploadDocumentContainer {
+    display: flex;
+}
+.uploadDocumentContainer .information{
+    width: 100%;
+    padding: 2rem 5rem;
+}
+
+.uploadDocumentContainer .inputAndTable{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.uploadDocumentContainer .input{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.uploadDocumentContainer .input button {
+    border-radius: 0.3rem;
+    border: 1px solid #000;
+    color: #fff;
+    background-color: #18ab72;
+    padding: 0.5rem 1.5rem;
+    margin-top: 1rem;
+    width: 10rem;
+}
+
+.uploadDocumentContainer .input button:hover{
+    cursor: pointer;
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.342);
+    background-color: #158d5f;
+}
+
+.uploadDocumentContainer .table {
+    margin-left: 2rem;
+}
+
+.uploadDocumentContainer .inspectButton , .uploadDocumentContainer .deleteButton {
+    text-align: center;
+    border-radius: 0.3rem;
+    border: 1px solid #000;
+    padding: 0.5rem 1.5rem;
+    width: 10rem;
+}
+
+.uploadDocumentContainer .inspectButton {
+    margin-left: 2rem;
+    color: #fff;
+    background-color: #18ab72;
+}
+
+.uploadDocumentContainer .inspectButton:hover{
+    cursor: pointer;
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.342);
+    background-color: #158d5f;
+}
+
+.uploadDocumentContainer .deleteButton {
+    color: #fff;
+    background-color: #FF1659;
+}
+
+.uploadDocumentContainer .deleteButton:hover{
+    cursor: pointer;
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.342);
+    background-color: #c21244;
+}
+
+.uploadDocumentContainer .addFile>input {
+    padding-top: 0.25rem;
+}

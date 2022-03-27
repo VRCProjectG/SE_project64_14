@@ -1,0 +1,27 @@
+.studentHeaderContainer {
+    width: 80vw;
+    height: 12.4vh;
+    background-color: #18ab72;
+    color: #fff;
+    border-left: 1px solid #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 3rem;
+    padding-right: 3rem;
+}
+
+.nameBox {
+    display: flex;
+    align-items: center;
+}
+
+.nameBox > img {
+    margin-left: 0.8rem;
+    width: 1.5rem;
+}
+
+.nameBox > img:hover {
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0.384);
+}

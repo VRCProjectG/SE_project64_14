@@ -1,0 +1,11 @@
+.homeInternshipContainer {
+    display: flex;
+}
+
+.homeInternshipSection > .information{
+    height: 87.6vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

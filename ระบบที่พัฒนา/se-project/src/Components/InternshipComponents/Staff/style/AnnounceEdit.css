@@ -1,0 +1,96 @@
+.announceEditSection {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #3c3c3c;
+}
+
+.announceEditContainer .information{
+    width: 60%;
+    padding: 2rem 5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 0.3rem;
+}
+
+.announceEditContainer .inputContainer{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.announceEditContainer .input{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.announceEditContainer .input input , .announceEditContainer .input textarea{
+    height: 2rem;
+    border: 1px solid;
+    border-radius: 0.3rem;
+    width: 100%;
+    margin-top: 0.5rem;
+    padding-left: 0.5rem;
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.11);
+}
+
+.announceEditContainer .input > .title {
+    width: 100%;
+}
+
+.announceEditContainer .input > .content {
+    width: 100%;
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.announceEditContainer .input textarea {
+    width: 100%;
+    height: 30vh;
+    border-radius: 0.3rem;
+}
+
+.announceEditContainer .input .button{
+    margin-top: 1rem;
+    display: flex;
+    align-items: center;
+}
+
+.announceEditContainer .input button , .announceEditContainer .input .back{
+    border-radius: 0.3rem;
+    border: 1px solid #000;
+    color: #fff;
+    background-color: #18ab72;
+    padding: 0.5rem 1.5rem;
+    width: 10rem;
+}
+
+.announceEditContainer .input button:hover{
+    cursor: pointer;
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.342);
+    background-color: #158d5f;
+}
+
+.announceEditContainer .input .back {
+    margin-left: 1rem;
+    text-align: center;
+    color: #000;
+    background-color: #d3d3d3;
+}
+
+.announceEditContainer .input .back:hover{
+    cursor: pointer;
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.342);
+    background-color: #929292;
+}

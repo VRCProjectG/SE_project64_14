@@ -1,0 +1,37 @@
+.approveValidationContainer {
+    display: flex;
+}
+
+.approveValidationSection > .title {
+    margin-top: 2rem;
+    padding-left: 5rem;
+    padding-right: 5rem;
+}
+
+.approveValidationSection > .table{
+    height: 87.6vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 1rem 5rem;
+}
+
+.approveValidationSection > .table > table {
+    width: 100%;
+}
+
+.approveValidationSection > .table > table > tr > th {
+    padding: 1rem 0;
+    background-color: #3c3c3c;
+    color:#fff;
+}
+
+.approveValidationSection > .table > table > tr > td {
+    padding: 1rem 0;
+    text-align: center;
+}
+
+.approveValidationSection > .table > table > tr > td:hover {
+    box-shadow: 0 0 0.3rem rgba(0, 0, 0, 0.486);
+}

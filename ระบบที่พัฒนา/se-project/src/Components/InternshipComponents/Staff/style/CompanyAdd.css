@@ -1,0 +1,79 @@
+.companyAddContainer {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #3c3c3c;
+}
+
+.companyAddSection {
+    width: 40%;
+    padding: 1rem;
+    border-radius: 0.3rem;
+    background-color: #fff;
+}
+
+.companyAddSection .title {
+    padding: 0.2rem 5rem;
+}
+
+.companyAddSection .title > hr{
+    margin-bottom: 0;
+}
+
+.companyAddSection .addForm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    padding: 2rem 5rem;
+}
+
+.addForm input{
+    height: 2rem;
+    border: 1px solid;
+    border-radius: 0.3rem;
+    width: 100%;
+    margin-top: 0.5rem;
+    padding-left: 0.5rem;
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.11);
+}
+
+.addForm input:hover{
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.534);
+}
+
+.row1,.row2,.row3,.row4{
+    width:100%;
+    margin-bottom: 1.5rem;
+}
+
+.companyAddSection .button {
+    margin-top: 1rem;
+}
+
+.companyAddSection button {
+    padding: 0.5rem 1.5rem;
+    border-radius: 0.3rem;
+    border: 1px solid #000;
+}
+
+.companyAddSection button:hover{
+    cursor: pointer;
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.342);
+}
+
+.companyAddSection button:first-child {
+    color: #fff;
+    background-color: #18ab72;
+    margin-right: 1rem;
+}
+
+.companyAddSection button:first-child:hover{
+    background-color: #158d5f;
+}
+
+.companyAddSection button:last-child:hover{
+    background-color: #b3b3b3;
+}

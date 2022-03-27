@@ -1,0 +1,64 @@
+.studentNavContainer {
+    width: 20vw;
+    height: 100vh;
+    color: white;
+    background-color: #3c3c3c;
+}
+
+.studentNav > .userInfo{
+    padding-top: 2rem;
+    padding-left: 2rem;
+    padding-bottom: 2rem;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid white;
+}
+
+.studentNav > .userInfo > .profile{
+    width: 3.5rem;
+    height: 3.5rem;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+}
+
+.studentNav > .userInfo > .profile > img {
+    width: 70%;
+}
+
+.studentNav > .userInfo > .detail{
+    margin-left: 1rem;
+}
+
+.homeInternshipPage ,.petitionInternshipPage,.approveValidation,.reportInternship,.internshipValidation{
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    padding-left: 2rem;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.homeInternshipPage:hover ,.petitionInternshipPage:hover,.approveValidation:hover,.reportInternship:hover,.internshipValidation:hover{
+    background-color: rgba(255, 255, 255, 0.438);
+}
+
+.homeInternshipPage>div , .petitionInternshipPage>div , .approveValidation>div,.reportInternship>div,.internshipValidation>div {
+    margin-left: 2rem;
+}
+
+.link_Selected {
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    padding-left: 2rem;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    background-color: rgba(255, 255, 255, 0.438);
+}
+
+.link_Selected>div {
+    margin-left: 2rem;
+}

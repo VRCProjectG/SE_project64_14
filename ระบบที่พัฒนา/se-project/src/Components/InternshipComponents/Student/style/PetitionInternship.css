@@ -1,0 +1,135 @@
+.petitionInternshipContainer {
+    display: flex;
+}
+
+.petitionInternshipSection > .information{
+    height: 85.5vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.petitionInternshipSection > .information > .form {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding: 2rem 5rem;
+}
+
+.petitionInternshipSection > .information > .form > form {
+    width: 100%;
+}
+
+.title input:hover{
+    cursor: pointer;
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.534);
+}
+
+.input input{
+    height: 2rem;
+    border: 1px solid;
+    border-radius: 0.3rem;
+    width: 100%;
+    margin-top: 0.5rem;
+    padding-left: 0.5rem;
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.11);
+}
+
+.input input:hover{
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.534);
+}
+
+.input input[type="date"]{
+    cursor: pointer;
+}
+
+.petitionInternshipSection > .information > .form > form > .title {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.petitionInternshipSection > .information > .form > form > .title > .radio {
+    display: flex;
+    align-items: center;
+}
+
+.petitionInternshipSection > .information > .form > form > .title > .radio > div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.petitionInternshipSection > .information > .form > form > .title > .radio > div:first-child {
+    margin-right: 1rem;
+}
+
+.petitionInternshipSection > .information > .form > form > .title > .radio > div > input {
+    margin-right: 0.3rem;
+}
+
+hr {
+    margin-bottom: 2rem;
+}
+
+.petitionInternshipSection > .information > .form > form > .input {
+    display: flex;
+    justify-content: space-between;
+}
+
+.leftContainer {
+    width:50%;
+    margin-right: 2rem;
+}
+
+.rightContainer {
+    width:50%;
+}
+
+.row1,.row2,.row3,.row4,.row5,.row6,.row7{
+    width:100%;
+    margin-bottom: 1.5rem;
+}
+
+.timeline{
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.timeline > input{
+    width:50%;
+}
+
+.timeline > div {
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.row7 > .file > input{
+    padding-top: 0.25rem;
+    width: 40%;
+}
+
+.petitionInternshipSection > .information > .form form .button {
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+}
+
+.petitionInternshipSection > .information > .form form .button > button {
+    color: #fff;
+    background-color: #18ab72;
+    border: 1px solid #000;
+    border-radius: 0.3rem;
+    padding: 0.5rem 1.5rem;
+}
+
+.petitionInternshipSection > .information > .form form .button > button:hover {
+    cursor: pointer;
+    background-color: #12744e;
+    box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.466);
+}

@@ -1,0 +1,75 @@
+.congratuationApproveContainer {
+    display: flex;
+}
+
+.congratuationApproveSection > .title {
+    margin-top: 2rem;
+    padding-left: 5rem;
+    padding-right: 5rem;
+}
+
+.congratuationApproveSection > .table{
+    height: 87.6vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 1rem 5rem;
+}
+
+.congratuationApproveSection > .table > table {
+    width: 100%;
+}
+
+.congratuationApproveSection > .table > table > tr > th {
+    padding: 1rem 0;
+    background-color: #3c3c3c;
+    color:#fff;
+}
+
+.congratuationApproveSection > .table > table > tr > td {
+    padding: 1rem 0;
+    text-align: center;
+}
+
+.congratuationApproveSection .inspectButton {
+    padding: 0.5rem 0;
+    color: #fff;
+    background-color: #18ab72;
+    border: 1px solid #000;
+    border-radius: 0.3rem;
+}
+
+.congratuationApproveSection .inspectButton:hover {
+    cursor: pointer;
+    background-color: #138559;
+}
+
+.congratuationApproveSection > .search {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 5rem;
+}
+
+.congratuationApproveSection .search {
+    width:70%;
+}
+
+.congratuationApproveSection .search>input {
+    width:70%;
+    height: 2rem;
+    margin-right: 0.3rem;
+}
+
+.congratuationApproveSection .search>button {
+    height: 2rem;
+    margin-right: 0.3rem;
+}
+
+.congratuationApproveSection .search>button:hover {
+    cursor: pointer;
+    height: 2rem;
+    margin-right: 0.3rem;
+}

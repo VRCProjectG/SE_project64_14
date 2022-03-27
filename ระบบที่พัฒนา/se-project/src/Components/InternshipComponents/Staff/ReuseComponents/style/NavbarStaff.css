@@ -1,0 +1,64 @@
+.StaffNavContainer {
+    width: 20vw;
+    height: 100vh;
+    color: white;
+    background-color: #3c3c3c;
+}
+
+.StaffNav > .userInfo{
+    padding-top: 2rem;
+    padding-left: 2rem;
+    padding-bottom: 2rem;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid white;
+}
+
+.StaffNav > .userInfo > .profile{
+    width: 3.5rem;
+    height: 3.5rem;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+}
+
+.StaffNav > .userInfo > .profile > img {
+    width: 70%;
+}
+
+.StaffNav > .userInfo > .detail{
+    margin-left: 1rem;
+}
+
+.companyPage ,.petitionValidationPage,.summaryApprove,.congratuationApprove,.announce,.uploadDocument{
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    padding-left: 2rem;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.companyPage:hover ,.petitionValidationPage:hover,.summaryApprove:hover,.congratuationApprove:hover,.announce:hover,.uploadDocument:hover{
+    background-color: rgba(255, 255, 255, 0.438);
+}
+
+.companyPage>div ,.petitionValidationPage>div,.summaryApprove>div,.congratuationApprove>div,.announce>div,.uploadDocument>div {
+    margin-left: 2rem;
+}
+
+.link_Selected {
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    padding-left: 2rem;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    background-color: rgba(255, 255, 255, 0.438);
+}
+
+.link_Selected>div {
+    margin-left: 2rem;
+}

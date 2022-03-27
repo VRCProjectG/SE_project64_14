@@ -1,0 +1,73 @@
+.uploadDocumentDeleteSection {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #3c3c3c;
+}
+
+.uploadDocumentDeleteContainer .information{
+    width: 50%;
+    padding: 2rem 5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 0.3rem;
+}
+
+.uploadDocumentDeleteContainer .inputContainer{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.uploadDocumentDeleteContainer .input{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.uploadDocumentDeleteContainer .input > .title {
+    width: 100%;
+}
+
+.uploadDocumentDeleteContainer .input .button{
+    margin-top: 1rem;
+    display: flex;
+    align-items: center;
+}
+
+.uploadDocumentDeleteContainer .input button , .uploadDocumentDeleteContainer .input .back{
+    border-radius: 0.3rem;
+    border: 1px solid #000;
+    color: #fff;
+    background-color: #FF1659;
+    padding: 0.5rem 1.5rem;
+    width: 10rem;
+}
+
+.uploadDocumentDeleteContainer .input button:hover{
+    cursor: pointer;
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.342);
+    background-color: #c21244;
+}
+
+.uploadDocumentDeleteContainer .input .back {
+    margin-left: 1rem;
+    text-align: center;
+    color: #000;
+    background-color: #d3d3d3;
+}
+
+.uploadDocumentDeleteContainer .input .back:hover{
+    cursor: pointer;
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.342);
+    background-color: #929292;
+}

@@ -1,0 +1,103 @@
+.companyContainer {
+    display: flex;
+}
+
+.companySection > .title {
+    margin-top: 2rem;
+    padding-left: 5rem;
+    padding-right: 5rem;
+}
+
+.companySection > .searchAndAdd {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 5rem;
+}
+
+.companySection .search {
+    width:50%;
+}
+
+.companySection .search>input {
+    width:70%;
+    height: 2rem;
+    margin-right: 0.3rem;
+}
+
+.companySection .search>button {
+    height: 2rem;
+    margin-right: 0.3rem;
+}
+
+.companySection .search>button:hover {
+    cursor: pointer;
+    height: 2rem;
+    margin-right: 0.3rem;
+}
+
+.companySection .add {
+    padding: 0.8rem 1.5rem;
+    border-radius: 0.3rem;
+    color: #fff;
+    background-color: #18ab72;
+}
+
+.companySection .add:hover {
+    cursor: pointer;
+    background-color: #127e54;
+}
+
+.companySection .edit , .companySection .delete{
+    width: 4rem;
+    border: 1px solid #000;
+    border-radius: 0.3rem; 
+    margin: 0 0.5rem;
+    padding: 0.8rem 0rem;
+}
+
+.companySection .edit {
+    color: #fff;
+    background-color: #18ab72;
+}
+
+.companySection .delete {
+    color: #fff;
+    background-color: #FF1659;
+    margin-right: 0;
+}
+
+.companySection .edit:hover {
+    cursor: pointer;
+    background-color: #12865a;
+}
+
+.companySection .delete:hover {
+    cursor: pointer;
+    background-color: #c21244;
+}
+
+.companySection > .table{
+    height: 87.6vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 1rem 5rem;
+}
+
+.companySection > .table > table {
+    width: 100%;
+}
+
+.companySection > .table > table > tr > th {
+    padding: 1rem 0;
+    background-color: #3c3c3c;
+    color:#fff;
+}
+
+.companySection > .table > table > tr > td {
+    padding: 1rem 0;
+    text-align: center;
+}

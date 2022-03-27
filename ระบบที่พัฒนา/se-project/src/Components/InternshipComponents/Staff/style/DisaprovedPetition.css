@@ -1,0 +1,125 @@
+.disaprovedPetitionSection {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    background-color: #3c3c3c;
+}
+
+.disaprovedPetitionSection > .information{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.disaprovedPetitionSection > .information > .form {
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding: 2rem 5rem;
+    border-radius: 0.3rem;
+}
+
+.disaprovedPetitionSection > .information > .form > form {
+    width: 100%;
+}
+
+.title input:hover{
+    cursor: pointer;
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.534);
+}
+
+.input input{
+    height: 2rem;
+    border: 1px solid;
+    border-radius: 0.3rem;
+    width: 100%;
+    margin-top: 0.5rem;
+    padding-left: 0.5rem;
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.11);
+}
+
+.input input:hover{
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.534);
+}
+
+.disaprovedPetitionSection > .information > .form > form > .title {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.disaprovedPetitionSection > .information > .form > form > .title > .radio {
+    display: flex;
+    align-items: center;
+}
+
+.disaprovedPetitionSection > .information > .form > form > .title > .radio > div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.disaprovedPetitionSection > .information > .form > form > .title > .radio > div:first-child {
+    margin-right: 1rem;
+}
+
+.disaprovedPetitionSection > .information > .form > form > .title > .radio > div > input {
+    margin-right: 0.3rem;
+}
+
+hr {
+    margin-bottom: 2rem;
+}
+
+.disaprovedPetitionSection > .information > .form > form > .input {
+    display: flex;
+    justify-content: space-between;
+}
+
+.container {
+    width:100%;
+    margin-right: 2rem;
+}
+
+.row1{
+    width:100%;
+    margin-bottom: 1.5rem;
+}
+
+.disaprovedPetitionSection > .information > .form form .button {
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+}
+
+.disaprovedPetitionSection > .information > .form form .button > .disapproved {
+    margin-right: 1.5rem;
+    color: #fff;
+    background-color: #FF1659;
+    border: 1px solid #000;
+    border-radius: 0.3rem;
+    padding: 0.5rem 1.5rem;
+}
+
+.disaprovedPetitionSection > .information > .form form .button > .disapproved:hover {
+    cursor: pointer;
+    background-color: #c21244;
+    box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.466);
+}
+
+.disaprovedPetitionSection .back {
+    border: 1px solid #000;
+    border-radius: 0.3rem;
+    padding: 0.5rem 1.5rem;
+}
+
+.disaprovedPetitionSection .back:hover {
+    background-color: rgb(165, 165, 165);
+    cursor: pointer;
+}

@@ -1,0 +1,137 @@
+.searchPlaceContainer {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+}
+
+.searchPlaceContainer header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100vw;
+    height: 7.5rem;
+    font-size: 1.5rem;
+    color: #fff;
+    background-color: #18ab72;
+}
+
+.searchPlaceContainer header>div:first-child{
+    font-size: 3rem;
+    margin-left: 2rem;
+    color: rgba(255, 255, 255, 0.568);
+}
+
+.searchPlaceContainer header>div:first-child:hover{
+    cursor: pointer;
+    text-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.425);
+}
+
+.searchPlaceContainer header>div:last-child{
+    font-size: 3rem;
+    margin-left: 2rem;
+    color: rgba(255, 255, 255, 0);
+}
+
+.searchPlaceSection {
+    width: 100%;
+}
+
+.searchPlaceSection > .title {
+    margin-top: 2rem;
+    padding-left: 5rem;
+    padding-right: 5rem;
+}
+
+.searchPlaceSection > .searchContainer {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 5rem;
+}
+
+.searchPlaceSection .search {
+    width:50%;
+}
+
+.searchPlaceSection .search>input {
+    width:70%;
+    height: 2rem;
+    margin-right: 0.3rem;
+}
+
+.searchPlaceSection .search>button {
+    height: 2rem;
+    margin-right: 0.3rem;
+}
+
+.searchPlaceSection .search>button:hover {
+    cursor: pointer;
+    height: 2rem;
+    margin-right: 0.3rem;
+}
+
+.searchPlaceSection .add {
+    padding: 0.8rem 1.5rem;
+    border-radius: 0.3rem;
+    color: #fff;
+    background-color: #18ab72;
+}
+
+.searchPlaceSection .add:hover {
+    cursor: pointer;
+    background-color: #127e54;
+}
+
+.searchPlaceSection .edit , .searchPlaceSection .delete{
+    width: 4rem;
+    border: 1px solid #000;
+    border-radius: 0.3rem; 
+    margin: 0 0.5rem;
+    padding: 0.8rem 0rem;
+}
+
+.searchPlaceSection .edit {
+    color: #fff;
+    background-color: #18ab72;
+}
+
+.searchPlaceSection .delete {
+    color: #fff;
+    background-color: #FF1659;
+    margin-right: 0;
+}
+
+.searchPlaceSection .edit:hover {
+    cursor: pointer;
+    background-color: #12865a;
+}
+
+.searchPlaceSection .delete:hover {
+    cursor: pointer;
+    background-color: #c21244;
+}
+
+.searchPlaceSection > .table{
+    height: 87.6vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 1rem 5rem;
+}
+
+.searchPlaceSection > .table > table {
+    width: 100%;
+}
+
+.searchPlaceSection > .table > table > tr > th {
+    padding: 1rem 0;
+    background-color: #3c3c3c;
+    color:#fff;
+}
+
+.searchPlaceSection > .table > table > tr > td {
+    padding: 1rem 0;
+    text-align: center;
+}

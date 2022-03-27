@@ -1,0 +1,43 @@
+.reportInternshipContainer {
+    display: flex;
+}
+
+.reportInternshipSection > .information {
+    height: 87.6vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.reportInternshipSection .download {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.reportInternshipSection .button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.reportInternshipSection .button>div{
+    padding: 1rem 2rem;
+    color: #fff;
+    background-color: #18ab72;
+    border-radius: 0.3rem;
+}
+
+.reportInternshipSection .button>div:first-child{
+    margin-right: 2rem;
+}
+
+.reportInternshipSection .upload{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+}

@@ -1,0 +1,46 @@
+.petitionValidationContainer {
+    display: flex;
+}
+
+.petitionValidationSection > .title {
+    margin-top: 2rem;
+    padding-left: 5rem;
+    padding-right: 5rem;
+}
+
+.petitionValidationSection > .table{
+    height: 87.6vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 1rem 5rem;
+}
+
+.petitionValidationSection > .table > table {
+    width: 100%;
+}
+
+.petitionValidationSection > .table > table > tr > th {
+    padding: 1rem 0;
+    background-color: #3c3c3c;
+    color:#fff;
+}
+
+.petitionValidationSection > .table > table > tr > td {
+    padding: 1rem 0;
+    text-align: center;
+}
+
+.petitionValidationSection .inspectButton {
+    padding: 0.5rem 0;
+    color: #fff;
+    background-color: #18ab72;
+    border: 1px solid #000;
+    border-radius: 0.3rem;
+}
+
+.petitionValidationSection .inspectButton:hover {
+    cursor: pointer;
+    background-color: #138559;
+}

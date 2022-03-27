@@ -1,0 +1,61 @@
+.reservationCheckContainer {
+    display: flex;
+}
+
+.reservationCheckSection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.reservationCheckTable {
+    margin-top : 2rem;
+    width: 70%;
+    background-color: #fff;
+    border-radius: 0.3rem;
+    box-shadow: 0px 0px 0.7rem rgba(136, 136, 136, 0.5);
+}
+
+.reservationCheckTable > tr > th {
+    text-align:center;
+    background-color: #0B1340;
+    color: #fff;
+    border-top-left-radius: 0.3rem;
+    border-top-right-radius: 0.3rem;
+}
+
+.reservationCheckTable > tr > td {
+    text-align: center;
+    background-color: #fff;
+    border-radius: 0.3rem;
+}
+
+.reservationCheckTable > tr:hover , .reservationCheckTable > tr > td:hover{
+    box-shadow: 0px 0px 0.7rem rgba(0, 0, 0, 0.5);
+}
+
+.reservationCheckTable > tr > td > .approve {
+    padding: 0.5rem 1rem;
+    border-radius: 0.3rem;
+    color: #fff;
+    background-color: #246e24;
+    border: none;
+    box-shadow: 0px 0px 0.3rem #0000004d;
+}
+
+.reservationCheckTable > tr > td > .approve:hover {
+    background-color: #4a924a;
+}
+
+.reservationCheckTable > tr > td > .refuse {
+    padding: 0.5rem 1rem;
+    border-radius: 0.3rem;
+    color: #fff;
+    background-color: #C20000;
+    border: none;
+    box-shadow: 0px 0px 0.3rem #0000004d;
+}
+
+.reservationCheckTable > tr > td > .refuse:hover {
+    background-color: #962121;
+}

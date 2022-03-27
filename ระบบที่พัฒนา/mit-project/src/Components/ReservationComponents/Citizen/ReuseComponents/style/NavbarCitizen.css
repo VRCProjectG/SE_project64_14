@@ -1,0 +1,102 @@
+.citizenNavContainer {
+    width: 20vw;
+    height: 100vh;
+    color: white;
+    background-color: #0B1340;
+}
+
+.citizenNav > .userEdit{
+    padding-top: 1rem;
+    padding-left: 2rem;
+    padding-bottom: 1rem;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid white;
+}
+
+.citizenNav > .userEdit > .profile{
+    width: 3.5rem;
+    height: 3.5rem;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+}
+
+.citizenNav > .userEdit > .profile > img {
+    width: 70%;
+}
+
+.citizenNav > .userEdit > .detail{
+    margin-left: 1rem;
+}
+
+.citizenNav > .userEdit > .detail > .button {
+    margin-top: 0.4rem;
+}
+
+.citizenNav > .userEdit > .detail > .button > img{
+    cursor: pointer;
+    width: 1rem;
+}
+
+.citizenNav > .userEdit > .detail > .button > img:hover{
+    background-color: rgba(255, 255, 255, 0.438);
+}
+
+.citizenNav > .userEdit > .detail > .button > img:first-child {
+    width: 0.75rem;
+    margin-right: 0.4rem;
+}
+
+.statusCheckPage ,.vaccineReservationPage,.downloadDocumentPage{
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    padding-left: 2rem;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.statusCheckPage:hover ,.vaccineReservationPage:hover,.downloadDocumentPage:hover{
+    background-color: rgba(255, 255, 255, 0.438);
+}
+
+.statusCheckPage>div , .vaccineReservationPage>div , .downloadDocumentPage>div {
+    margin-left: 2rem;
+}
+
+.statusCheckPage_Selected {
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    padding-left: 2rem;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    background-color: rgba(255, 255, 255, 0.438);
+}
+
+.vaccineReservationPage_Selected {
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    padding-left: 2rem;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    background-color: rgba(255, 255, 255, 0.438);
+}
+
+.downloadDocumentPage_Selected {
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    padding-left: 2rem;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    background-color: rgba(255, 255, 255, 0.438);
+}
+
+.statusCheckPage_Selected>div , .vaccineReservationPage_Selected>div , .downloadDocumentPage_Selected>div {
+    margin-left: 2rem;
+}

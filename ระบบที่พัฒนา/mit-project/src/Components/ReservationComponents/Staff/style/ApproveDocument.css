@@ -1,0 +1,49 @@
+.approveDocumentContainer {
+    display: flex;
+}
+
+.approveDocumentSection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.approveDocumentTable {
+    margin-top : 2rem;
+    width: 70%;
+    background-color: #fff;
+    border-radius: 0.3rem;
+    box-shadow: 0px 0px 0.7rem rgba(136, 136, 136, 0.5);
+}
+
+.approveDocumentTable > tr > th {
+    text-align:center;
+    background-color: #0B1340;
+    color: #fff;
+    border-top-left-radius: 0.3rem;
+    border-top-right-radius: 0.3rem;
+}
+
+.approveDocumentTable > tr > td {
+    text-align: center;
+    background-color: #fff;
+    border-radius: 0.3rem;
+}
+
+.approveDocumentTable > tr:hover , .approveDocumentTable > tr > td:hover{
+    box-shadow: 0px 0px 0.7rem rgba(0, 0, 0, 0.5);
+}
+
+.approveDocumentTable > tr > td > .editDocument {
+    padding: 0.5rem 1rem;
+    border-radius: 0.3rem;
+    color: #fff;
+    background-color: #0B1340;
+    border: none;
+    box-shadow: 0px 0px 0.5rem #0000004d;
+}
+
+.approveDocumentTable > tr > td > .editDocument:hover {
+    background-color: #222d6b;
+    box-shadow: 0px 0px 0.7rem #0000004d;
+}

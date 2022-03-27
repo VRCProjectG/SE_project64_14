@@ -1,0 +1,13 @@
+.vaccineReservationContainer {
+    display: flex;
+}
+
+.vaccineReservationSection > form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.LocationVac , .DateVac {
+    width: 70%;
+}

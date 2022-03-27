@@ -1,0 +1,81 @@
+.vaccinePlaceContainer {
+    display: flex;
+}
+
+.vaccinePlaceSection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.vaccinePlaceTitle {
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.vaccinePlaceTitle > .add {
+    padding: 0.5rem 1rem;
+    border-radius: 0.3rem;
+    color: #fff;
+    background-color: #0B1340;
+    border: none;
+    box-shadow: 0px 0px 0.3rem #0000004d;
+}
+
+.vaccinePlaceTitle > .add:hover{
+    background-color: #232e6e;
+}
+
+.vaccinePlaceTable {
+    margin-top : 2rem;
+    width: 70%;
+    background-color: #fff;
+    border-radius: 0.3rem;
+    box-shadow: 0px 0px 0.7rem rgba(136, 136, 136, 0.5);
+}
+
+.vaccinePlaceTable > tr > th {
+    text-align:center;
+    background-color: #0B1340;
+    color: #fff;
+    border-top-left-radius: 0.3rem;
+    border-top-right-radius: 0.3rem;
+}
+
+.vaccinePlaceTable > tr > td {
+    text-align: center;
+    background-color: #fff;
+    border-radius: 0.3rem;
+}
+
+.vaccinePlaceTable > tr:hover , .vaccinePlaceTable > tr > td:hover{
+    box-shadow: 0px 0px 0.7rem rgba(0, 0, 0, 0.5);
+}
+
+.vaccinePlaceTable > tr > td > .edit {
+    padding: 0.5rem 1rem;
+    border-radius: 0.3rem;
+    color: #fff;
+    background-color: #0B1340;
+    border: none;
+    box-shadow: 0px 0px 0.3rem #0000004d;
+}
+
+.vaccinePlaceTable > tr > td > .edit:hover {
+    background-color: #232e6e;
+}
+
+.vaccinePlaceTable > tr > td > .delete {
+    padding: 0.5rem 1rem;
+    border-radius: 0.3rem;
+    color: #fff;
+    background-color: #C20000;
+    border: none;
+    box-shadow: 0px 0px 0.3rem #0000004d;
+}
+
+.vaccinePlaceTable > tr > td > .delete:hover {
+    background-color: #962121;
+}
